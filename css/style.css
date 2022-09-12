@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+body{
+    background-color: #009578;
+}
+
+#app{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,200px);
+    padding:24px;
+    gap:24px;
+}
+
+.note{
+    height:200px;
+    padding:16px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+    resize: none;
+    border:0;
+    font-size: 20px;
+}
+
+
+.add-note{
+    height: 200px;
+    border:0;
+    outline: 0;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    font-size: 120px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.add-note:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+
+.theme-color-box{
+    background-color: #fff;
+    padding:15px;
+    position: fixed;
+    top: 50px;
+    right:0;
+    border-radius: 12px;
+}
+
